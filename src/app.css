@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url("./imagenes/NekoNeko.png");
+    background-size: cover;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.picture {
+    max-width: 500px;
+    max-height: 500px;
+    border-radius: 50%;
+    border: 5px solid rgba(50, 130, 196, 0.589);
+}
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 100px;
+    margin: 20px;
+    padding: 18px;
+    border: 2px solid black;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.466);
+    background-color: white;
+
+    
+}
+.fact {
+    margin: 20px;
+    background-color: rgba(127, 158, 184, 0.589);
+    font-size: 30px;
+    font-family: sans-serif;
+    text-align: center;
+}
+.refresh {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    margin: 20px;
+    max-width: 300px;
+    background-color: rgba(47, 197, 147, 0.651);
+    border-radius: 50%;
+    border: 30px solid rgba(66, 135, 175, 0.13);
+}
+
